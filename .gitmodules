@@ -1,0 +1,6 @@
+[submodule "pages/SchoolSoft-redesigned"]
+	path = pages/SchoolSoft-redesigned
+	url = https://github.com/helagro/SchoolSoft-redesigned.git
+[submodule "pages/vocabulary-sorter-website"]
+	path = pages/vocabulary-sorter-website
+	url = https://github.com/helagro/vocabulary-sorter-website.git
