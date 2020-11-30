@@ -1,0 +1,101 @@
+:root {
+	--nav-height: 50px;
+	--small-dropdown-height: 200px;
+	--main-links-transform-down: 30%;
+	--small-screen-links-horizontal-gap: 20px;
+	--big-component-height: 42px;
+	--row-gap: 16px;
+	--small-nav-threashold: 920px;
+
+	--background1: #fff;
+	--blue: #b9e6f0;
+	--green:#c5f9bd;
+	--weak-green: #fff;
+	--shadow-color:  #999898;
+	--definer-color: #9e9e9e;
+
+	--big-text-color: #585858;
+	--medium-text-color: #4b4b4d;
+}
+
+
+body{
+	background-attachment: fixed;
+	background-image: url(../img/dotts.svg);
+	background-repeat: repeat;
+	background-size: 25px;
+
+	margin: 0;
+	width: 100%;
+}
+
+section {
+	box-sizing: border-box;
+	column-gap: 40px;
+	display: grid;
+    margin: calc(var(--nav-height) + 8px) auto 0 auto;
+    max-width: 930px;
+	row-gap: var(--row-gap);
+	width: 100%;
+}
+
+section > div{
+	box-shadow: 0px .6px 4px var(--shadow-color);
+	box-sizing: border-box;
+}
+
+
+@media(min-width: 1200px){
+    section{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 85vh;
+        margin-top: 70px !important;
+        max-width: 2500px;
+        padding: 0 30px;
+    }
+
+    section > div{
+        box-shadow: .6px .6px 4px var(--shadow-color);
+    }
+
+    .flow{
+        height: 100% !important;
+    }
+
+    .schedule{
+        margin-bottom: auto;
+        overflow: hidden;
+    }
+}
+
+
+
+
+/* ANCHOR Element types */
+h2, h3{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+}
+h3{
+	font-size: 18px;
+}
+p {
+	color: var(--medium-text-color);
+}
+p, a{
+	font-size: 16px;
+}
+
+
+/* ANCHOR general classes */
+.arrow {
+	border: solid var(--medium-text-color);
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 3px;
+  }
+
+.down {
+	transform: rotate(45deg);
+}
