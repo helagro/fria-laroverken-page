@@ -1,0 +1,21 @@
+:root{
+    --lightGray: #cfcfcf;
+    --darkGray: #222;
+}
+
+.projectsContainer{
+    margin: auto;
+    display: grid;
+    max-width: 120em;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2em;
+}
+
+.projectItem{
+    border: 0.1em solid var(--darkGray);;
+    text-align: center;
+    padding-bottom: 1em;
+    border-radius: 1em;
+    color: var(--darkGray);
+}
+
