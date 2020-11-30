@@ -3,19 +3,24 @@
     --darkGray: #222;
 }
 
+.title{
+    text-align: center;
+}
+
 .projectsContainer{
-    margin: auto;
+    column-gap: 2em;
     display: grid;
-    max-width: 120em;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 2em;
+    margin: auto;
+    margin: 2em;
+    max-width: 120em;
 }
 
 .projectItem{
-    border: 0.1em solid var(--darkGray);;
-    text-align: center;
-    padding-bottom: 1em;
+    border: 0.1em solid var(--darkGray);
     border-radius: 1em;
     color: var(--darkGray);
+    padding: 0 1em 1em 1em;
+    text-align: center;
 }
 
