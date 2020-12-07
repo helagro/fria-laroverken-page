@@ -4,3 +4,6 @@
 [submodule "pages/vocabulary-sorter-website"]
 	path = pages/vocabulary-sorter-website
 	url = https://github.com/helagro/vocabulary-sorter-website.git
+[submodule "pages/psychic-website-collaboration"]
+	path = pages/psychic-website-collaboration
+	url = https://github.com/helagro/psychic-website-collaboration.git
