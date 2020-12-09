@@ -11,8 +11,8 @@
     column-gap: 2em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: auto;
-    margin: 2em;
+    margin: 2em auto;
+    float: center;
     max-width: 120em;
 }
 
